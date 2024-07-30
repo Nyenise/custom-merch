@@ -90,7 +90,9 @@ select{
     select{
         font-size: 10px;
     }
-   
+   input[type="radio"],input[type="checkbox"] {
+    margin-top: 1px;
+    }
     fieldset{
         padding: 5px;
     }
