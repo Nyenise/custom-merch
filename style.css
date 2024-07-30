@@ -1,0 +1,95 @@
+body{
+    background-color:rgb(81, 65, 79);
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    text-align: center;
+    margin-left: 480px;
+    margin-top: 5px;
+    padding: 5px;
+    width:600px;    
+}
+h1{
+    color:whitesmoke;    
+}
+.Reg{
+    background-color: white;
+    width: 500px;
+    border: 1px solid white;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 500px;
+    margin-right: 400px;
+    padding: 40px;
+}
+.form{
+    font-family: cursive;
+    font-size: 18px;
+    text-align: justify;
+}
+.form-text{
+    margin-top: 3px;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+fieldset {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+select{
+    font-family: cursive;
+    font-size: 18px;
+}
+.submit{
+    background-color: rgb(81, 65, 79);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+@media(max-width: 600px){
+    h1{
+        font-size: 16px;
+    }
+    .title{
+        margin-top: 2px;
+        margin-left: 100px;
+        width: 200px;
+    }
+    .Reg{
+        width: 250px;
+        padding: 30px;
+        margin: 50px;
+      
+    }
+    .form{
+        font-size: 14px;
+    }
+    select{
+        font-size: 12px;
+    }
+   
+    fieldset{
+        padding: 5px;
+    }
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Arwa's Merch</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="title">
+        <h1>
+            Merch Customization
+        </h1>
+        </div>
+         <div class="Reg">
+            <form action="" class="form">
+                <div class="form-text">
+                    <label for="name">Full name:</label><br>
+                    <input type="text" id="name" name="name" required
+                </div>
+                <div class="form-text">
+                    <label for="email">Email Address:</label><br>
+                    <input type="email" id="email" name="email" required
+                </div>
+                <div class="form-text">
+                    <label for="gender">Gender:</label><br> 
+                    <input type="radio" id="male" name="sex" value="male" required
+                    <label for="male">Male</label>
+
+                    <input type="radio" id="female" name="sex" value="female" required
+                    <label for="female">Female</label>
+
+                    <input type="radio" id="other" name="sex" value="other" required
+                    <label for="other">Other</label>
+                </div>
+                <div class="form-text">
+                    <label for="uname">Username:</label><br>
+                    <input type="text" id="uname" name="uname" required
+                </div>
+                <div class="form-text">
+                    <label for="passw">Password (8 characters minimum):</label><br>
+                    <input type="password" id="passw" name="password" minlength="8" required
+                </div>
+                <div class="form-text">
+                    <label for="cpassw">Confirm Password:</label><br>
+                    <input type="password" id="cpassw" name="cpassw" required
+                </div>
+                <div>
+                    <fieldset>
+                        <legend><strong>Merch Customization</strong></legend>
+                        <div>
+                            <label for="merch">Choose Merch:</label><br>
+                            <input type="checkbox" id="tshirt" name="tshirt">
+                            <label for="tshirt">T-shirt</label>
+
+                            <input type="checkbox" id="hoodie" name="hoodie">
+                            <label for="hoodie">Hoodie</label>
+
+                            <input type="checkbox" id="sw_shirt" name="sw_shirt">
+                            <label for="sw_shirt">Sweatshirt</label>            
+                        </div>
+                        <div>
+                            <label for="design-select">Pick a design:</label><br>
+                            <select name="design" id="design-select">
+                                <option value="">--Please choose a design--</option>
+                                <option value="dragon">Dragon</option>
+                                <option value="daemonaki">Daemonaki</option>
+                                <option value="fire_sprite">Fire Sprite</option>
+                                <option value="fae">Fae</option>
+                                <option value="wolf">Wolf</option>
+                                <option value="angel">Angel</option>
+                                <option value="reaper">Reaper</option>
+                                <option value="mer">Mer</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="color-select">Pick a color:</label><br>
+                            <select name="color" id="color-select">
+                                <option value="">--Please choose Merch color--</option>
+                                <option value="white">White</option>
+                                <option value="black">Black</option>
+                                <option value="grey">Grey</option> 
+                                <option value="red">Red</option>
+                                <option value="blue">Blue</option>
+                            </select>
+                        </div>
+                    </fieldset>
+                </div>
+                <div>
+                    <input class="submit" type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
